@@ -1,10 +1,17 @@
 .right1{
 margin-left: 4.7rem;
+font-weight:normal ;
 
 }
 .right2{
    margin-left: 7rem; 
+   font-weight:normal ;
 }
 .right3{
    margin-left: 9.7rem; 
+   font-weight:normal ;
+}
+.bold{
+    font-weight: 600;
+    font-family: "Raleway", serif;
 }
