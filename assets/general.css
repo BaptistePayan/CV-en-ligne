@@ -13,6 +13,8 @@ grid-template-areas: "left-column right-column right-column";
 h1, h2{
 text-align: center;
 font-family: 'lato';
+margin-left: 7rem;
+font-size:xx-large;
 }
 h3{
     padding-left: 50px;
@@ -49,7 +51,7 @@ margin-left: 24rem;
 color: #17ABB3;    
 }
 .align5{
-margin-left: 28rem;
+margin-left: 27.7rem;
 color: #17ABB3;
 }
 .align6{
@@ -80,6 +82,7 @@ color: #17ABB3;
     flex-basis: 100%;
     background-color: #17ABB3;
     height: 240px;
+    color: #ffffff;
 }
 .none{
     list-style-type: none;

@@ -1,0 +1,15 @@
+.info-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 270px;
+    height: 60px;
+    
+    justify-content: space-between;
+    transform: translateX(500px);
+}
+
+#color-white{
+   color: #ffffff; 
+   text-decoration: none;
+   font-family: "Raleway", serif;        
+}
