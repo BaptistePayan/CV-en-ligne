@@ -3,7 +3,6 @@
     flex-wrap: wrap;
     width: 270px;
     height: 60px;
-    
     justify-content: space-between;
     transform: translateX(500px);
 }
@@ -12,4 +11,30 @@
    color: #ffffff; 
    text-decoration: none;
    font-family: "Raleway", serif;        
+}
+.bloc-1{
+    filter: brightness(0) invert(1);
+}
+.bloc-2{
+    filter: brightness(0) invert(1);
+}
+.bloc-3{
+    filter: brightness(0) invert(1);
+}
+.bloc-4{
+    filter: brightness(0) invert(1);
+}
+figure{
+    width: 150px;
+    height: 150px;
+}
+.flavicon{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 6px solid #ffffff
+}
+.flavicon:hover{
+    cursor: zoom-in;
 }

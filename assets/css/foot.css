@@ -1,0 +1,16 @@
+.icon{
+color: #ffffff;
+margin-top: 1.5rem;
+margin-bottom: 0.5rem;
+display: flex;
+gap: 30px;
+justify-content: center;
+}
+.png{
+filter: brightness(0) invert(1);
+}
+.png:hover{
+    opacity: 0.5;
+}
+
+/*Je ne comprend pas comment changer la couleur des icône*/

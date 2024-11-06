@@ -15,6 +15,8 @@ text-align: center;
 font-family: 'lato';
 margin-left: 7rem;
 font-size:xx-large;
+margin-top: -7rem;
+
 }
 h3{
     padding-left: 50px;
@@ -88,13 +90,18 @@ color: #17ABB3;
     list-style-type: none;
     padding-left: 50px;
 }
-.square{
-    list-style-type: square;
-    padding-left: 65px;
-    font-family: "Raleway", serif;
+ul{
+    list-style-type: none;
+    
+}
+.square::before{
+    content: "\0025A0";
+    color: #17ABB3;
+    margin-left: 0.7rem;
+    margin-bottom: 1rem;
 }
 .item-2{
-    background-color:#e3e3e3 ;
+    background-color: rgba(227, 227, 227, 0.5);
     width: 350px;
 }
 .item-3{

@@ -1,3 +1,16 @@
 .hr-main{
     width: 710px;
 }
+.survol:hover{
+    background-color: rgba(227, 227, 227, 0.5);
+    width: 50rem;
+    
+}
+.cursor:hover{
+    cursor:alias;
+    background-color: #17ABB3;; /*voir comment mettre la sidebar*/
+    height: max-content;
+    width: 0.5rem;
+    margin-left: 50px
+    
+}

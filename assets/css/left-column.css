@@ -1,20 +1,38 @@
 .right1{
-margin-left: 4.7rem;
+margin-left: 2.5rem;
 font-weight:normal ;
 
 }
 .right2{
-   margin-left: 7rem; 
+   margin-left: 5.6rem; 
    font-weight:normal ;
 }
 .right3{
-   margin-left: 9.7rem; 
+   margin-left: 8.7rem; 
    font-weight:normal ;
 }
 .bold{
     font-weight: 600;
     font-family: "Raleway", serif;
+    margin-bottom: 1rem;
 }
 .hr-left{
     width: 240px;
+}
+.fa.fa-star{
+    color: #17ABB3;
+    font-size: 13px;
+
+}
+.star-1{
+margin-left: 9.4rem;
+}
+.star-2{
+    margin-left: 10.3rem;   
+}
+.star-3{
+    margin-left: 7.9rem;   
+}
+.star-4{
+    margin-left: 7.1rem;    
 }
