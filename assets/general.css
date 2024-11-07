@@ -10,14 +10,6 @@ grid-template-areas: "left-column right-column right-column";
     src: url('./fonts/Raleway-VariableFont_wght.ttf') format('truetype');
 }
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto&display=swap');
-h1, h2{
-text-align: center;
-font-family: 'lato';
-margin-left: 7rem;
-font-size:xx-large;
-margin-top: -7rem;
-
-}
 h3{
     padding-left: 50px;
     color: #17ABB3;
@@ -29,49 +21,12 @@ p{
     text-align: justify;
     font-family: "Raleway", serif;
 }
+ul{
+    font-family: "Raleway", serif;
+}
 h4{
     padding-left: 50px;
     font-family: 'lato';
-}
-.padding{
-    padding-left: 2rem;
-}
-.align1{
-margin-left: 28rem;     /*utilisation de margin car text align ne fonctionne pas*/
-color: #17ABB3;
-}
-.align2{
-margin-left: 21rem;
-color: #17ABB3;
-}
-.align3{
-margin-left: 36.7rem;
-color: #17ABB3;
-}
-.align4{
-margin-left: 24rem; 
-color: #17ABB3;    
-}
-.align5{
-margin-left: 27.7rem;
-color: #17ABB3;
-}
-.align6{
-margin-left: 30.5rem;
-color: #17ABB3;
-}
-.align7{
-margin-left: 24rem;
-color: #17ABB3;
-}
-.align8{
-margin-left: 20rem;
-color: #17ABB3;
-}
-.size{
-    font-size: smaller;
-    font-style: italic;
-    margin-top: -22px;
 }
 .cv-container{
     max-width: 1160px;
@@ -80,46 +35,7 @@ color: #17ABB3;
     justify-content: center;
     margin-left: 115px;
 }
-.item-1{
-    flex-basis: 100%;
-    background-color: #17ABB3;
-    height: 240px;
-    color: #ffffff;
-}
-.none{
-    list-style-type: none;
-    padding-left: 50px;
-}
-ul{
-    list-style-type: none;
-    
-}
-.square::before{
-    content: "\0025A0";
-    color: #17ABB3;
-    margin-left: 0.7rem;
-    margin-bottom: 1rem;
-}
-.item-2{
-    background-color: rgba(227, 227, 227, 0.5);
-    width: 350px;
-}
-.item-3{
-    background-color: #ffffff;
-    width: 810px;
-}
-.item-4{
-    flex-basis: 100%;
-    background-color: #17ABB3;
-    height: 80px; 
-    font-family: "Raleway", serif;
-    font-style: italic;
-    text-align: center;
-}
-/*
-.justify{
-    white-space:  ;
-}
+
 
 
 

@@ -1,3 +1,21 @@
+.none{
+    list-style-type: none;
+    padding-left: 50px;
+}
+ul{
+    list-style-type: none;
+    
+}
+.square::before{
+    content: "\0025A0";
+    color: #17ABB3;
+    margin-left: 0.7rem;
+    margin-bottom: 1rem;
+}
+.item-2{
+    background-color: rgba(227, 227, 227, 0.5);
+    width: 350px;
+}
 .right1{
 margin-left: 2.5rem;
 font-weight:normal ;
@@ -13,7 +31,6 @@ font-weight:normal ;
 }
 .bold{
     font-weight: 600;
-    font-family: "Raleway", serif;
     margin-bottom: 1rem;
 }
 .hr-left{
