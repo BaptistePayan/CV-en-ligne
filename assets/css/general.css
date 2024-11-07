@@ -1,0 +1,41 @@
+/*.cv-container{
+display: grid;
+max-width: 1160px;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-areas: "left-column right-column right-column";
+}*/
+@font-face{
+    font-family: "Raleway";
+    src: url('./fonts/Raleway-VariableFont_wght\ \(convert.io\).woff');
+    src: url('./fonts/Raleway-VariableFont_wght.ttf') format('truetype');
+}
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto&display=swap');
+h3{
+    padding-left: 50px;
+    color: #17ABB3;
+    font-family: 'lato';
+}
+p{
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: justify;
+    font-family: "Raleway", serif;
+}
+ul{
+    font-family: "Raleway", serif;
+}
+h4{
+    padding-left: 50px;
+    font-family: 'lato';
+}
+.cv-container{
+    max-width: 1160px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 115px;
+}
+
+
+
+

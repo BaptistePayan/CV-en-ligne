@@ -1,0 +1,24 @@
+.item-4{
+    flex-basis: 100%;
+    background-color: #17ABB3;
+    height: 80px; 
+    font-family: "Raleway", serif;
+    font-style: italic;
+    text-align: center;
+}
+.icon{
+    color: #ffffff;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.png{
+    filter: brightness(0) invert(1);
+}
+.png:hover{
+    opacity: 0.5;
+}
+
+/*Défaut logo insta*/

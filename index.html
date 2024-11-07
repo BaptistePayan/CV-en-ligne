@@ -1,95 +1,152 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/general.css">
-    <title>Premier CV en ligne en HTML/CSS de Baptiste Payan </title>
-</head>
-<body>
-<section class="cv-container">
-    <header class="item-1">
-        <h1>Baptiste Payan</h1>
-        <h2>Dévellopeur Web et Web mobile</h2>
-    </header>
-  <section class="item-2">
-    <section>
-    <h3>Compétences</h3>
-    <hr>
-    <ul class="none">
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>FL studio</li>
-        <li>Rekordbox</li>
-    </ul>
-    </section>
-      <section>
-    <h3>Langues</h3>
-    <hr>
-    <ul class="none">
-        <li>Français</li>
-        <li>Anglais</li>
-        <li>Italien</li>
-    </ul>
-      </section>
-        <section>
-    <h3>Qualités</h3>
-    <hr>
-    <ul class="square">
-        <li>Autonomie</li>
-        <li>Persévérant</li>
-        <li>Ecoute active</li>
-        <li>Esprit d'équipe</li>
-    </ul>
-        </section>
-          <section>
-    <h3>Centres d'intérêt</h3>
-    <hr>
-    <ul class="square">
-        <li>Musique</li>
-        <li>Backpacking</li>
-        <li>Astronomie</li>
-    </ul>
-            </section>
-  </section>
-  <main class="item-3">
-   <section>
-     <section>
-    <h3>Profil</h3>
-    <hr>
-    <p></p>
-    <h3>Formations</h3>
-    <hr>
-    <h4>Titre professionnel DWWM<span>2024/2025</span></h4>
-    <p>Centre Européen de Formation</p>
-    <h4>BTS Management Commercial Opérationnel<span>2019/2021</span></h4>
-    <p>Comnicia business school</p>
-    <h4>Baccalauréat<span>2018</span></h4>
-    <p>Lycée Sainte Marie (Joinville le pont)</p>
-     </section>
-       <section>
-    <h3>Stages</h3>
-    <hr>
-    <h4>Management Commercial<span>Mars 2021 - Mai 2021</span></h4>
-    <p>La vie claire</p>
-    <h4>Vendeur<span>Octobre 2020 - Décembre 2020</span></h4>
-    <p>La vie claire</p>
-       </section>
-         <section>
-    <h3>Expériences professionelles</h3>
-    <hr>
-    <h4>Vendeur Polyvalent<span>Actuellement</span></h4>
-    <p>Pribon</p>
-    <h4>Vendeur Polyvalent <span>Janvier 2021 - Octobre 2023</span></h4>
-    <p>La vie claire</p>
-    <h4>Saisonnier Arboriculure<span>Septembre 2019 - Novembre 2019</span></h4>
-    <p>Courdent</p>
-         </section>
-   </section>
-  </main>
-  <footer class="item-4">
-    <small>Mis à jour le jj//MM/AAAA</small>
-  </footer>
- </section>
-</body>
+              <head>
+                  <meta charset="UTF-8">
+                  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                  <link rel="stylesheet" href="./assets/css/general.css">
+                  <link rel="stylesheet" href="./assets/css/left-column.css">
+                  <link rel="stylesheet" href="./assets/css/main.css">
+                  <link rel="stylesheet" href="./assets/css/head.css">
+                  <link rel="stylesheet" href="./assets/flaticon.png/">
+                  <link rel="stylesheet" href="assets/flavicon.jpg/">
+                  <link rel="stylesheet" href="./assets/css/foot.css">
+                  <link rel="stylesheet" href="./assets/fontawesome-free-6.6.0-web/css/all.css">
+                  <link rel="stylesheet" href="./assets/fontawesome-free-6.6.0-desktop/">
+                  <title>Premier CV en ligne en HTML/CSS de Baptiste Payan </title>
+              </head>
+              <body>
+                  <section class="cv-container">
+                        <header class="item-1">
+                            <h1>Baptiste Payan</h1>
+                            <h2>Dévellopeur Web et Web mobile</h2>
+                                <figure>
+                                      <a href="./assets/flavicon.jpg/Flavicon.jpg" target="_blank"> <img class="flavicon" src="./assets/flavicon.jpg/Flavicon.jpg" alt="photo de profil">
+                                      </a>
+                                </figure>
+                                <div class="info-container">
+                                    <div class="bloc-1"><img src="./assets/flaticon.png/001-mail.png" alt="icône d'une enveloppe blanche"> <a id="color-white" href="mailto:baptiste@payan.fr" target="_blank">Baptiste@payan.fr</a></div>
+                                    <div class="bloc-2"><img src="./assets/flaticon.png/003-house-black-silhouette-without-door.png" alt="icône d'une maison avec un toit blanc"> <a id="color-white" href="https://maps.google.fr/" target="_blank">Adresse</a></div>
+                                    <div class="bloc-3"><img src="./assets/flaticon.png/002-phone-receiver.png" alt="icône d'un telephone fixe blanc"> <a id="color-white" href="phone:0664013724" target="_blank">0664013724</a></div>
+                                    <div class="bloc-4"><img src="./assets/flaticon.png/004-silhouette-frontale-de-voiture-sportive.png" alt="icône d'une voiture de face blanche"> Permis B</div>
+                                </div>
+                        </header>
+                        <section class="item-2">
+                                <section>
+                                       <h3>Compétences</h3>
+                                       <hr class="hr-left">
+                                       <ul class="none">
+                                           <li class="bold">HTML <span class="star-1"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i></span></li>
+                                           <li class="bold">CSS <span class="star-2"></span><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></li>
+                                           <li class="bold">FL studio <span class="star-3"></span><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></li>
+                                           <li class="bold">Rekordbox <span class="star-4"></span><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></li>
+                                       </ul>
+                                </section>
+                                <section>
+                                       <h3>Langues</h3>
+                                       <hr class="hr-left">
+                                       <ul class="none">
+                                           <li class="bold">Français <span class="right1">Langue maternelle</span></li>
+                                           <li class="bold">Anglais <span class="right2">Intermediaire</span></li>
+                                           <li class="bold">Italien <span class="right3">Notions</span></li>
+                                       </ul>
+                                </section>
+                                <section>
+                                       <h3>Qualités</h3>
+                                       <hr class="hr-left">
+                                       <ul>
+                                         <li class="square">Autonomie</li>
+                                         <li class="square">Persévérant</li>
+                                         <li class="square">Ecoute active</li>
+                                         <li class="square">Esprit d'équipe</li>
+                                      </ul>
+                                </section>
+                                <section>
+                                       <h3>Centres d'intérêt</h3>
+                                       <hr class="hr-left">
+                                       <ul>
+                                         <li class="square">Musique</li>
+                                         <li class="square">Backpacking</li>
+                                         <li class="square">Astronomie</li>
+                                       </ul>
+                                </section>
+                        </section>
+                        <main class="item-3">
+                              <section>
+                                     <section>
+                                            <h3>Profil</h3>
+                                            <hr class="hr-main">
+                                            <p class="justify"> <span class="padding">Lorem</span> ipsum dolor sit amet consectetur adipisicing elit. Minima fugit vel quis tempore, distinctio laboriosam incidunt non quidem maxime natus unde est autem nemo, omnis, suscipit ad saepe excepturi repellendus.
+                                            <br>
+                                            <span class="padding">Lorem ipsum</span>, dolor sit amet consectetur adipisicing elit. Eligendi corporis perferendis ipsam ab maxime et adipisci numquam ipsum ratione recusandae? Nobis, ut. Dolor beatae eius tempore, nostrum ab repellendus voluptas?</p>
+                                            <h3>Formations</h3>
+                                            <hr class="hr-main">
+                                                <div class="cursor">
+                                                     <div class="survol">
+                                                          <h4>Titre professionnel DWWM<span class="align1">2024/2025</span></h4>
+                                                          <p class="size">Centre Européen de Formation</p>
+                                                     </div>
+                                                </div>
+                                                <div class="cursor">
+                                                     <div class="survol">
+                                                          <h4>BTS Management Commercial Opérationnel<span class="align2">2019/2021</span></h4>
+                                                          <p class="size">Comnicia business school</p>
+                                                     </div>
+                                                </div>
+                                                <div class="cursor">
+                                                     <div class="survol">
+                                                          <h4>Baccalauréat<span class="align3">2018</span></h4>
+                                                          <p class="size">Lycée Sainte Marie (Joinville le pont)</p>
+                                                     </div>
+                                                </div>
+                                     </section>
+                                     <section>
+                                            <h3>Stages</h3>
+                                            <hr class="hr-main">
+                                                <div class="cursor">
+                                                     <div class="survol">
+                                                          <h4>Management Commercial<span class="align4">Mars 2021 - Mai 2021</span></h4>
+                                                          <p class="size">La vie claire</p>
+                                                     </div>
+                                               </div>
+                                               <div class="cursor">
+                                                    <div class="survol">
+                                                         <h4>Vendeur<span class="align5">Octobre 2020 - Décembre 2020</span></h4>
+                                                         <p class="size">La vie claire</p>
+                                                    </div>
+                                               </div>
+                                     </section>
+                                     <section>
+                                            <h3>Expériences professionelles</h3>
+                                            <hr class="hr-main">
+                                            <div class="cursor">
+                                                 <div class="survol">
+                                                      <h4>Vendeur Polyvalent<span class="align6">Actuellement</span></h4>
+                                                      <p class="size">Pribon</p>
+                                                 </div>
+                                            </div>
+                                            <div class="cursor">
+                                                 <div class="survol">
+                                                      <h4>Vendeur Polyvalent <span class="align7">Janvier 2021 - Octobre 2023</span></h4>
+                                                      <p class="size">La vie claire</p>
+                                                 </div>
+                                            </div>
+                                            <div class="cursor">
+                                                 <div class="survol">
+                                                      <h4>Saisonnier Arboriculure<span class="align8">Septembre 2019 - Novembre 2019</span></h4>
+                                                      <p class="size">Courdent</p>
+                                                </div>
+                                            </div>
+                                     </section>
+                              </section>
+                        </main>
+                        <footer class="item-4">
+                                <div class="icon"> <!--je n'ai pour l'instant pas de linkedin et insta professionel-->
+                                     <img class="png" src="./assets/flaticon.png/002-linkedin.png" alt="icône Linkedin"> 
+                                     <a href="https://github.com/BaptistePayan" target="_blank"><img class="png" src="./assets/flaticon.png/003-github.png" alt="icône Github"></a> 
+                                     <img class="png" src="./assets/flaticon.png/001-instagram.png" alt="icône Instagram">
+                                </div>
+                                <small>Mis à jour le 07//11/2024</small>
+                        </footer>
+                  </section>
+              </body>
 </html>

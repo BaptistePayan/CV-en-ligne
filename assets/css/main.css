@@ -1,0 +1,60 @@
+.item-3{
+    background-color: #ffffff;
+    width: 810px;
+}
+.padding{
+    padding-left: 2rem;
+}
+.align1{
+    margin-left: 28rem;     /*utilisation de margin car text align ne fonctionne pas*/
+    color: #17ABB3;
+}
+.align2{
+    margin-left: 21rem;
+    color: #17ABB3;
+}
+.align3{
+    margin-left: 36.7rem;
+    color: #17ABB3;
+}
+.align4{
+    margin-left: 24rem; 
+    color: #17ABB3;    
+}
+.align5{
+    margin-left: 27.7rem;
+    color: #17ABB3;
+}
+.align6{
+    margin-left: 30.5rem;
+    color: #17ABB3;
+}
+.align7{
+    margin-left: 24rem;
+    color: #17ABB3;
+}
+.align8{
+    margin-left: 20rem;
+    color: #17ABB3;
+}
+.size{
+    font-size: smaller;
+    font-style: italic;
+    margin-top: -22px;
+}
+.hr-main{
+    width: 710px;
+}
+.survol:hover{
+    background-color: rgba(227, 227, 227, 0.5);
+    width: 50rem;
+    
+}
+.cursor:hover{
+    cursor:alias;
+    background-color: #17ABB3;; /*voir comment mettre la sidebar*/
+    height: max-content;
+    width: 0.5rem;
+    margin-left: 50px
+    
+}
